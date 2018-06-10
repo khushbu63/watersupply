@@ -1,0 +1,44 @@
+<resources>
+
+    /*for login and registration*/
+
+    <string name="app_name">water supply</string>
+    <string name="email">Email</string>
+    <string name="nameError">nameError</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="btn_forgot">Forgot password</string>
+    <string name="username">User Name</string>
+    <string name="phone">Phone</string>
+    <string name="signup">SIGNUP</string>
+    <string name="btn_signup">already signup user go to login</string>
+    <string name="title_activity_navigationdrawer">Navigationdrawer</string>
+    <string name="supname">Supplier Name</string>
+    <string name="supfirmname">Firmname</string>
+    <string name="phoneno">Phone No</string>
+    <string name="title">Title:-</string>
+    <string name="titlehint">Enter title</string>
+    <string name="desc">Description:-</string>
+    <string name="deschint">Enter description</string>
+    <string name="add">Insert</string>
+    <string name="query">Query</string>
+    <string name="msg">If you want to use application then please confirm by admin</string>
+    <string name="bottle">No of bottle:-</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_supdrawer">Supdrawer</string>
+    <string name="title_activity_supnavigation">Supnavigation</string>
+    <string name="title_activity_location">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_activity_customerloc">Map</string>
+
+
+</resources>

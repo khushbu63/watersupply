@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.watersupply.MainScreen"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="200dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Water App"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum=".6"
+        >
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight=".3"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="LOGIN"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/btn"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight=".3"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="SIGNUP"
+            android:backgroundTint="@color/btn"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
